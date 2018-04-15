@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Cheat">
+      <UniqueIdentifier>{c7758978-a479-4946-911e-9abac6406f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cheat">
+      <UniqueIdentifier>{b6156094-a25e-4e6a-8a9e-22713911d91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Useless to me">
+      <UniqueIdentifier>{99159039-7977-4345-8935-911d0b1a0c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Useless to me">
+      <UniqueIdentifier>{6452c87f-d011-4886-8c61-b4dd973ff5f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{f13c3f30-50d8-4662-b803-8160ee174c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Custom Model Stuff">
+      <UniqueIdentifier>{5e1dc434-21ae-4428-bc99-827de3a57018}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiAims.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoStrafer.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\chams.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\bhop.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Circlestrafer.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Configs.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="FakeLag.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\glow.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\grenadeprediction.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\nightmode.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="options.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\memewalk.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\skinchanger.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="SpectatorList.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\thirdperson.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="features\visuals.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="JSON.cpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\characterset.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\checksum_crc.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\checksum_md5.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\Color.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\Convar.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\csgostructs.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\InputSys.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\math.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\NetvarSys.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\sdk.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConvar.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\utils.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\UtlBuffer.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\misc\UtlString.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\math\Vector2D.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\math\Vector4D.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="helpers\vfunc_hook.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="valve_sdk\math\VMatrix.cpp">
+      <Filter>Source Files\Useless to me</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Resolver.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="triggerbot.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="autowall.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot2.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiAims.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="features\bhop.hpp">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="features\chams.hpp">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Circlestrafer.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="features\glow.hpp">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="FakeLag.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.hpp">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="features\memewalk.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="features\nightmode.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="options.hpp">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="features\visuals.hpp">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="features\thirdperson.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="features\skinchanger.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="SpectatorList.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Configs.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoStrafer.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\BaseHandle.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\CClientState.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\characterset.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\checksum_crc.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\checksum_md5.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\CInput.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\ClientClass.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\Color.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\Convar.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\csgostructs.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\CUserCmd.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\EHandle.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\Enums.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\GlobalVars.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\glow_outline_effect.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IAppSystem.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IBaseClientDll.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IClientEntity.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IClientEntityList.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IClientMode.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IClientNetworkable.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IClientRenderable.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IClientThinkable.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IClientUnknown.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\ICollideable.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts\IconsFontAwesome.h">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IConVar.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\ICvar.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IEngineSound.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IEngineTrace.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IGameEventmanager.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\IHandleEntity.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IMaterialSystem.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IMoveHelper.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\InputSys.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IPanel.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IPhysics.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IPrediction.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IRenderView.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\ISurface.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDefinitions.h">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IVDebugOverlay.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IVEngineClient.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IViewRender.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IVModelInfoClient.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\interfaces\IVModelRender.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="JSON.h">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\math.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\NetvarSys.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\platform.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\math\QAngle.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\Recv.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\sdk.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="SpoofedConvar.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\Studio.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\utils.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\UtlBuffer.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\UtlMemory.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\UtlString.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\UtlVector.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\math\Vector.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\math\Vector2D.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\math\Vector4D.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\misc\vfunc.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="helpers\vfunc_hook.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="valve_sdk\math\VMatrix.hpp">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.hpp">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="features\grenadeprediction.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="hitmarkers.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="IMDLCache.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="triggerbot.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="backtracking.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Header Files\Useless to me</Filter>
+    </ClInclude>
+    <ClInclude Include="autowall.hpp">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="clantag.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot2.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="glovechanger.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
